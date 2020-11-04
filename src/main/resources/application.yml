@@ -1,0 +1,12 @@
+server:
+  port: 9000
+---
+spring:
+  profiles:
+    - kubernetes
+author:
+  api: http://author:80/author
+book:
+  api: http://book:80/book
+review:
+  api: http://review:80/reviews
